@@ -178,6 +178,10 @@ Do not include yet:
 - **TypeScript**
 - **Zod** for request validation
 
+### Package manager
+- **bun** as the default package manager
+- use `bun install` and `bun add`
+
 ### Agent / intent layer
 - simple rule-based parser first
 - optional LLM parsing later
