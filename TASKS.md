@@ -26,11 +26,11 @@ Ship a small but convincing MVP for **Cielo**:
 ---
 
 ## Phase 2 — Core schemas
-- [ ] Define `PaymentIntent` schema
-- [ ] Define `PolicyResult` schema
-- [ ] Define `PaymentPlan` schema
-- [ ] Define `Receipt` schema
-- [ ] Validate all schemas with Zod
+- [x] Define `PaymentIntent` schema
+- [x] Define `PolicyResult` schema
+- [x] Define `PaymentPlan` schema
+- [x] Define `Receipt` schema
+- [x] Validate all schemas with Zod
 
 Suggested fields:
 - `amount`
