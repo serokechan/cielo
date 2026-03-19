@@ -8,7 +8,19 @@ const envSchema = z.object({
   NEXT_PUBLIC_DEFAULT_NETWORK: z.string().default("celo"),
 });
 
-export const env = envSchema.parse({
+export type AppEnv = z.infer<typeof envSchema>;
+
+export function parseEnv(input: Partial<Record<keyof AppEnv, string | number | undefined>>) {
+  return envSchema.parse({
+    CELO_RPC_URL: input.CELO_RPC_URL,
+    CELO_CHAIN_ID: input.CELO_CHAIN_ID,
+    CELO_USDC_ADDRESS: input.CELO_USDC_ADDRESS,
+    NEXT_PUBLIC_APP_NAME: input.NEXT_PUBLIC_APP_NAME,
+    NEXT_PUBLIC_DEFAULT_NETWORK: input.NEXT_PUBLIC_DEFAULT_NETWORK,
+  });
+}
+
+export const env = parseEnv({
   CELO_RPC_URL: process.env.CELO_RPC_URL,
   CELO_CHAIN_ID: process.env.CELO_CHAIN_ID,
   CELO_USDC_ADDRESS: process.env.CELO_USDC_ADDRESS,
