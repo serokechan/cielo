@@ -45,15 +45,15 @@ Suggested fields:
 ---
 
 ## Phase 3 — Intent parser
-- [ ] Build first version of intent parser
-- [ ] Parse user input into:
+- [x] Build first version of intent parser
+- [x] Parse user input into:
   - amount
   - token
   - recipient
   - purpose
-- [ ] Detect missing fields
-- [ ] Return confidence score
-- [ ] Add fallback for ambiguous input
+- [x] Detect missing fields
+- [x] Return confidence score
+- [x] Add fallback for ambiguous input
 
 Example input:
 - `send 5 cUSD to 0xabc... for lunch`

@@ -3,6 +3,7 @@ import { z } from "zod";
 export const networkSchema = z.enum(["celo"]);
 
 export const tokenSymbolSchema = z.enum(["cUSD", "USDC"]);
+export type TokenSymbolSchema = z.infer<typeof tokenSymbolSchema>;
 
 export const missingFieldSchema = z.enum(["amount", "token", "recipient", "purpose", "network"]);
 
