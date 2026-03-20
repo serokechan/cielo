@@ -26,11 +26,11 @@ Ship a small but convincing MVP for **Cielo**:
 ---
 
 ## Phase 2 — Core schemas
-- [ ] Define `PaymentIntent` schema
-- [ ] Define `PolicyResult` schema
-- [ ] Define `PaymentPlan` schema
-- [ ] Define `Receipt` schema
-- [ ] Validate all schemas with Zod
+- [x] Define `PaymentIntent` schema
+- [x] Define `PolicyResult` schema
+- [x] Define `PaymentPlan` schema
+- [x] Define `Receipt` schema
+- [x] Validate all schemas with Zod
 
 Suggested fields:
 - `amount`
@@ -45,15 +45,15 @@ Suggested fields:
 ---
 
 ## Phase 3 — Intent parser
-- [ ] Build first version of intent parser
-- [ ] Parse user input into:
+- [x] Build first version of intent parser
+- [x] Parse user input into:
   - amount
   - token
   - recipient
   - purpose
-- [ ] Detect missing fields
-- [ ] Return confidence score
-- [ ] Add fallback for ambiguous input
+- [x] Detect missing fields
+- [x] Return confidence score
+- [x] Add fallback for ambiguous input
 
 Example input:
 - `send 5 cUSD to 0xabc... for lunch`
