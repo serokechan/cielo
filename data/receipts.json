@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ad84c4b5-3d58-4735-8049-208c372fbb65",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "simulate",
+    "status": "simulated",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x9527cf98bdb3d137c36afc2180059e2ecbf26a236cd014529efc0db7ef221808",
+    "simulationResult": "Simulated transfer successfully.",
+    "explorerUrl": "https://celoscan.io/tx/0x9527cf98bdb3d137c36afc2180059e2ecbf26a236cd014529efc0db7ef221808",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:45.739Z"
+  },
+  {
+    "id": "cd2d1610-5781-4752-80d1-8744b6e4de64",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x5deccebcef65ee416812fb9336626fac35f188ebbfcf92cf6449e7f6357b2504",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0x5deccebcef65ee416812fb9336626fac35f188ebbfcf92cf6449e7f6357b2504",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:51.708Z"
+  },
+  {
+    "id": "06f0330e-6530-4464-b4d1-b19b4dbcd7fd",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x937861aa921cdc81d85f2b2a583f57f14dc87c241b9a7614449818e9f2c8e811",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0x937861aa921cdc81d85f2b2a583f57f14dc87c241b9a7614449818e9f2c8e811",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:54.717Z"
+  },
+  {
+    "id": "9cd3680a-ad01-456a-be41-9fdb4b6c7aae",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x8399b352183c96ed3724bd35424983519e650236fd0c7e8e0555ac354c8bc103",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0x8399b352183c96ed3724bd35424983519e650236fd0c7e8e0555ac354c8bc103",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:55.584Z"
+  },
+  {
+    "id": "d17de7ba-25ad-4be0-8ac9-ab125bbbb3fc",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0xf5fc307d85e82d4c9792b12aadad870f863254772d9246f665457f3248b7b72f",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0xf5fc307d85e82d4c9792b12aadad870f863254772d9246f665457f3248b7b72f",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:56.210Z"
+  },
+  {
+    "id": "548dee78-ac4e-46fe-ace0-b7c3d045b04d",
+    "paymentPlanId": "efbf5bd0-92c1-4cd0-b4d9-8362365a968f",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x955c325d6a57b188e0968cc10583cb8b02c67f7f9c943652ab4936f8321b9ae0",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0x955c325d6a57b188e0968cc10583cb8b02c67f7f9c943652ab4936f8321b9ae0",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:20:56.818Z"
+  },
+  {
+    "id": "4f08d63f-2f7b-4fc4-a37a-dd6c6d495059",
+    "paymentPlanId": "df5f8a7f-7536-4639-8b35-945967b84086",
+    "mode": "simulate",
+    "status": "simulated",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0x4af6c06dc64abf5ae4a0ba3f82a563d9252d1217a0b3e21431b87b4a83a1a903",
+    "simulationResult": "Simulated transfer successfully.",
+    "explorerUrl": "https://celoscan.io/tx/0x4af6c06dc64abf5ae4a0ba3f82a563d9252d1217a0b3e21431b87b4a83a1a903",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:30:33.854Z"
+  },
+  {
+    "id": "6dccf7df-116c-492b-b3ba-ed144cbfadfa",
+    "paymentPlanId": "df5f8a7f-7536-4639-8b35-945967b84086",
+    "mode": "execute",
+    "status": "success",
+    "network": "celo",
+    "token": "cUSD",
+    "amount": "5",
+    "recipient": "0x1234567890abcdef1234567890abcdef12345678",
+    "txHash": "0xf1e8ac28e0083bbe17e4549f3260e4d8ed37bd777ff1c869037d5e2d52ea4d7b",
+    "simulationResult": null,
+    "explorerUrl": "https://celoscan.io/tx/0xf1e8ac28e0083bbe17e4549f3260e4d8ed37bd777ff1c869037d5e2d52ea4d7b",
+    "warnings": [
+      {
+        "code": "confirmation_required",
+        "severity": "info",
+        "message": "Explicit user confirmation is required before execution."
+      }
+    ],
+    "createdAt": "2026-03-21T06:35:21.683Z"
+  }
+]

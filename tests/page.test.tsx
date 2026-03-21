@@ -6,9 +6,10 @@ import Home from "../app/page";
 test("home page renders the Phase 1 MVP setup", () => {
   const html = renderToStaticMarkup(<Home />);
 
-  expect(html).toContain("Cielo · Phase 1 Setup");
+  expect(html).toContain("Cielo Payment Flow MVP");
   expect(html).toContain("Safe Stablecoin Payment Copilot on Celo");
-  expect(html).toContain("Celo Mainnet");
-  expect(html).toContain("cUSD");
-  expect(html).toContain("USDC");
+  expect(html).toContain("Payment intent");
+  expect(html).toContain("Generate preview");
+  expect(html).toContain("Preview");
+  expect(html).toContain("Result &amp; receipt");
 });

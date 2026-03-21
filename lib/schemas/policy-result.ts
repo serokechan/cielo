@@ -36,3 +36,4 @@ export const policyResultSchema = z.object({
 
 export type PolicyWarning = z.infer<typeof policyWarningSchema>;
 export type PolicyResult = z.infer<typeof policyResultSchema>;
+export type PolicyDecision = z.infer<typeof policyDecisionSchema>;

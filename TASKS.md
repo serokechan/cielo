@@ -61,12 +61,12 @@ Example input:
 ---
 
 ## Phase 4 — Policy engine
-- [ ] Implement token allowlist
-- [ ] Implement network allowlist
-- [ ] Implement recipient format checks
-- [ ] Implement max amount rule
-- [ ] Implement warning generator
-- [ ] Require explicit confirmation before execution
+- [x] Implement token allowlist
+- [x] Implement network allowlist
+- [x] Implement recipient format checks
+- [x] Implement max amount rule
+- [x] Implement warning generator
+- [x] Require explicit confirmation before execution
 
 Possible warnings:
 - unknown token
@@ -77,11 +77,11 @@ Possible warnings:
 ---
 
 ## Phase 5 — Payment planner
-- [ ] Resolve token metadata
-- [ ] Create payment preview object
-- [ ] Estimate fee / gas
-- [ ] Attach warnings and readiness state
-- [ ] Mark request as:
+- [x] Resolve token metadata
+- [x] Create payment preview object
+- [x] Estimate fee / gas
+- [x] Attach warnings and readiness state
+- [x] Mark request as:
   - ready
   - blocked
   - needs clarification
@@ -97,12 +97,12 @@ Preview should include:
 ---
 
 ## Phase 6 — Celo chain adapter
-- [ ] Setup `celo-adapter`
-- [ ] Add chain config
-- [ ] Add token contract config
-- [ ] Build transfer transaction payload
-- [ ] Add transaction simulation
-- [ ] Return structured tx result
+- [x] Setup `celo-adapter`
+- [x] Add chain config
+- [x] Add token contract config
+- [x] Build transfer transaction payload
+- [x] Add transaction simulation
+- [x] Return structured tx result
 
 MVP scope:
 - Celo only
@@ -111,20 +111,20 @@ MVP scope:
 ---
 
 ## Phase 7 — Execution engine
-- [ ] Connect payment plan to execution layer
-- [ ] Add simulate mode
-- [ ] Add execute mode
-- [ ] Capture tx hash
-- [ ] Capture success / failure result
-- [ ] Return execution summary
+- [x] Connect payment plan to execution layer
+- [x] Add simulate mode
+- [x] Add execute mode
+- [x] Capture tx hash
+- [x] Capture success / failure result
+- [x] Return execution summary
 
 ---
 
 ## Phase 8 — Receipt layer
-- [ ] Define receipt format
-- [ ] Store local receipt log
-- [ ] Show human-readable receipt
-- [ ] Include:
+- [x] Define receipt format
+- [x] Store local receipt log
+- [x] Show human-readable receipt
+- [x] Include:
   - amount
   - token
   - recipient
@@ -135,21 +135,21 @@ MVP scope:
 ---
 
 ## Phase 9 — UI layer
-- [ ] Build input UI for payment intent
-- [ ] Build preview card
-- [ ] Build warnings section
-- [ ] Build confirmation action
-- [ ] Build result / receipt view
-- [ ] Handle loading and error states
+- [x] Build input UI for payment intent
+- [x] Build preview card
+- [x] Build warnings section
+- [x] Build confirmation action
+- [x] Build result / receipt view
+- [x] Handle loading and error states
 
 ---
 
 ## Phase 10 — Demo preparation
-- [ ] Prepare happy-path demo
-- [ ] Prepare risky-path demo
-- [ ] Prepare short project explanation
-- [ ] Prepare screenshots / screen recording
-- [ ] Prepare submission narrative for:
+- [x] Prepare happy-path demo
+- [x] Prepare risky-path demo
+- [x] Prepare short project explanation
+- [x] Prepare screenshots / screen recording
+- [x] Prepare submission narrative for:
   - Best Agent on Celo
   - Open Track
   - Agents that pay
