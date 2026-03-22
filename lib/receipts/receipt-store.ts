@@ -1,6 +1,6 @@
 import { randomUUID } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
-import { dirname } from "node:path";
+import { dirname, join } from "node:path";
 
 import { supportedChains } from "@/lib/config/chains";
 import {
@@ -19,7 +19,11 @@ type ReceiptStoreOptions = {
   storePath?: string;
 };
 
-const DEFAULT_RECEIPT_STORE = "data/receipts.json";
+const DEFAULT_RECEIPT_STORE = join(
+  /* turbopackIgnore: true */ process.cwd(),
+  "data",
+  "receipts.json",
+);
 
 function buildExplorerUrl(network: PaymentPlan["network"], txHash: string | null): string | null {
   if (!txHash) return null;
